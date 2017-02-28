@@ -1,2 +1,18 @@
 $icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
 @import '~bootstrap-sass/assets/stylesheets/bootstrap';
+$goldenrod: #e29c00;
+$deepblue: #07268d;
+
+body {
+  background-color: $goldenrod;
+  color: $deepblue;
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.danface {
+  border-radius: 50px;
+}
