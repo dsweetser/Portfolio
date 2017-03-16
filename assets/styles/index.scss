@@ -10,9 +10,19 @@ body {
 }
 
 div {
-  margin: 0 auto;
+  margin: 0px auto;
+}
+
+.border {
+  margin: 50px;
 }
 
 .danface {
   border-radius: 50px;
+  height: 300px;
+}
+
+nav {
+  position: fixed;
+  text-align: center;
 }
