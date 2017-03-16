@@ -9,6 +9,7 @@ module.exports = {
       application: './index.js',
       specs: './spec/_all.js',
       vendor: ['jquery', 'bootstrap-sass'],
+      pictures:'./assets/images/webdan.jpg',
     },
 
     output: {

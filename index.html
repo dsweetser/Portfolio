@@ -12,19 +12,39 @@
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
     <body class="container-fluid">
-      <header>About Projects Skills Contact</header>
-      <div><h1>Hello, Welcome to Dan Sweetser's Portfolio</h1></div>
-      <div><img class="danface" src="./assets/images/webdan.jpg"></div>
-      <div><h3>Hi, I'm Dan Sweetser. I make websites. Below is some of my work.</h3></div>
+      <header>
+        <nav><ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul></nav>
+      </header>
 
-      <h4>Projects</h4>
+
+      <div><h1>Hello, Welcome to Dan Sweetser's Portfolio</h1></div>
+      <div><img class="danface" alt="this is what I look like" src=".public/webdan.jpg"></div>
+      <div id="about">
+        <h3>Hi, I'm Dan Sweetser. I make websites. Below is some of my work.</h3>
+      </div>
+
+      <div class="border"></div>
+
+      <div id="projects">
+      <h4 >Projects</h4>
       <div class="projects">
         <div><a href="https://dsweetser.github.io/tic-tac-toe/">Tic-Tac-Plaid</a>: the marriage of two grids.</div>
         <div><a href="https://dsweetser.github.io/HMM-Front/">How Many Meeples</a>: a full stack project for logigng board games.</div>
       </div>
+    </div>
 
-      <h4>Skills</h4>
-      <div class="skills">JavaScript, HTML/CSS, JQuery, Ruby
+    <div class="border"></div>
+
+      <div id="skills">
+        <h4>Skills</h4>
+        <div class="skills">JavaScript, HTML/CSS, JQuery, Ruby
+        </div>
       </div>
+
     </body>
 </html>
