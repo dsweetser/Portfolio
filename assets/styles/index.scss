@@ -11,6 +11,10 @@ $peagreen: #b2cc00;
 a {
   color: $deepblue;
 }
+.container-fluid {
+  margin: 0 auto;
+  padding: 0;
+}
 
 body {
   background-image: linear-gradient(45deg, $houndstooth1 1px, transparent 1px), linear-gradient(90deg, $houndstooth2 1px, transparent 1px), linear-gradient(-45deg, $houndstooth1 16px, transparent 16px), linear-gradient(225deg, transparent 13.33333px, $houndstooth2 13.33333px, $houndstooth2 20px, transparent 20px), linear-gradient(45deg, transparent 13.33333px, $houndstooth2 13.33333px, $houndstooth2 20px, transparent 20px), linear-gradient(225deg, $houndstooth2 8px, transparent 8px), linear-gradient(45deg, $houndstooth2 8px, transparent 8px), linear-gradient(0deg, $houndstooth1 20px, transparent 20px), linear-gradient(90deg, $houndstooth2 20px, transparent 20px), linear-gradient(0deg, $houndstooth2 20px, $houndstooth1 20px);
@@ -21,9 +25,8 @@ body {
 
 }
 
-div {
+.content {
   padding: 20px 0;
-  width: 600px;
   text-align: center;
 }
 
@@ -47,6 +50,7 @@ nav {
   width: 75px;
 }
 
+
 .content {
   background: $divbackground;
   margin: 40px auto;
@@ -60,4 +64,29 @@ ul {
 .nav {
   padding: 0;
   width: auto;
+}
+
+.project {
+  float: left;
+  height: 300px;
+  margin: 4px;
+  overflow-x: scroll;
+  padding: 4px;
+  width: 32%;
+}
+
+.description {
+  text-align: center;
+}
+
+.screenshot {
+  height: 200px;
+}
+
+.repo-space {
+  margin-top: 1em;
+}
+
+.underline {
+  text-decoration: underline;
 }
