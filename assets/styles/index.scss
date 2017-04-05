@@ -7,6 +7,7 @@ $deepblue: #07268d;
 $houndstooth1: #8817b0;
 $houndstooth2: #fff;
 $peagreen: #b2cc00;
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Poiret+One');
 
 a {
   color: $deepblue;
@@ -22,6 +23,8 @@ body {
   background-size: 2px 2px, 2px 2px, 40px 40px, 40px 40px, 40px 40px, 40px 40px, 40px 40px, 40px 40px, 40px 40px, 40px 40px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.6) inset;
   color: $deepblue;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
   min-height: 200%;
 
 }
