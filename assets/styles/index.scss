@@ -11,6 +11,7 @@ $peagreen: #b2cc00;
 a {
   color: $deepblue;
 }
+
 .container-fluid {
   margin: 0 auto;
   padding: 0;
@@ -26,12 +27,15 @@ body {
 }
 
 .content {
+  background: $divbackground;
+  margin: 20px 0 0 auto;
   padding: 20px 0;
   text-align: center;
 }
 
-.border {
-  margin: 50px;
+.about {
+  font-size: 1.25em;
+  padding: 20px;
 }
 
 .danface {
@@ -48,13 +52,6 @@ nav {
   text-align: center;
   text-decoration: none;
   width: 75px;
-}
-
-
-.content {
-  background: $divbackground;
-  margin: 40px auto;
-  padding: 20px 0;
 }
 
 ul {
@@ -89,4 +86,13 @@ ul {
 
 .underline {
   text-decoration: underline;
+}
+
+.contact-me {
+  float: left;
+  height: 3em;
+  margin: 10px 4px;
+  overflow-x: scroll;
+  padding: 4px;
+  width: 32%;
 }
