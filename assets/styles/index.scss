@@ -30,10 +30,13 @@ body {
   text-align: center;
 }
 
+.padding {
+  padding: 20px 0;
+}
+
 .content {
   background: $divbackground;
-  margin: 20px 0 0 auto;
-  padding: 50px 0;
+  padding: 20px;
 }
 
 .about {
